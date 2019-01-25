@@ -21,3 +21,16 @@ body {
 .results-wrapper {
   padding-bottom: 25px;
 }
+
+.results-wrapper > a > button {
+  font-weight: 600;
+  font-size: 14px;
+  height: 25px;
+  box-shadow: 2px 2px #359962;
+  background-color: #ececec;
+  border: #333;
+}
+
+.results-wrapper > a > button:hover {
+  cursor: pointer;
+} 
