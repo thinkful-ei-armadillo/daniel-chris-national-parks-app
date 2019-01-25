@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+  background: #3cb371  ;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.master-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.parks-search-form > input {
+  margin: 5px 5px 5px 0px;
+}
+
+.parks-search-form > label {
+  font-size: 16px;
+  color: #333;
+}
+
+.results-wrapper {
+  padding-bottom: 25px;
+}
