@@ -17,10 +17,9 @@ function displayResults(responseJson) {
   for ( let i = 0; i < responseJson.data.length; i++ ){
     $('.results-list').append(
       `<div class="results-wrapper">
-      <h3 for="park-name">${responseJson.data[i].name}</h3>
+      <a href='${responseJson.data[i].url}' for="link to park page" target="_blank"><h3 for="park-name">${responseJson.data[i].fullName}</h3></a>
       <h4 for="park-address">${responseJson.data[i].latLong}</h4>
       <p for="park description">${responseJson.data[i].description}</p>
-      <a href='${responseJson.data[i].url}' for="link to park page">Link</a>
       </div>`
     )};
 }
