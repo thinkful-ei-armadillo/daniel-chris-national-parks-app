@@ -14,7 +14,7 @@ function formatQueryParams(params) {
 function displayResults(responseJson) {
   console.log(responseJson);
   $('.results-list').empty();
-  for (let i = 0; i < responseJson.data.length; i++){
+  for ( let i = 0; i < responseJson.data.length; i++ ){
     $('.results-list').append(
       `<div class="results-wrapper">
       <h3 for="park-name">${responseJson.data[i].name}</h3>
